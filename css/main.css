@@ -1,0 +1,88 @@
+div.content-container div.flowchart-item{
+	width:100px;
+	height:50px;
+	top:20px;
+	font-size:12px;
+	padding:10px 0px;
+	margin-top:20px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	text-align: center;
+}
+div.content-container div.flowchart-rectangle,div.flowchart-container div.flowchart-rectangle-item{
+	background:url(../images/rectangle.gif) no-repeat;
+}
+div.content-container div.flowchart-prismatic,div.flowchart-container div.flowchart-prismatic-item{
+	background:url(../images/prismatic.gif) no-repeat;
+}
+div.content-container div.flowchart-oval,div.flowchart-container div.flowchart-oval-item{
+	background:url(../images/oval.gif) no-repeat;
+}
+div.content-container div.flowchart-parallelogram,div.flowchart-container div.flowchart-parallelogram-item{
+	background:url(../images/parallelogram.gif) no-repeat;
+}
+div.content-container div.flowchart-rectangle:hover,div.flowchart-container div.flowchart-rectangle-item:hover{
+	background:url(../images/rectangle-hover.gif) no-repeat;
+}
+div.content-container div.flowchart-prismatic:hover,div.flowchart-container div.flowchart-prismatic-item:hover{
+	background:url(../images/prismatic-hover.gif) no-repeat;
+}
+div.content-container div.flowchart-oval:hover,div.flowchart-container div.flowchart-oval-item:hover{
+	background:url(../images/oval-hover.gif) no-repeat;
+}
+div.content-container div.flowchart-parallelogram:hover,div.flowchart-container div.flowchart-parallelogram-item:hover{
+	background:url(../images/parallelogram-hover.gif) no-repeat;
+}
+div.flowchart-container{
+	float:left;
+	position: relative;
+	width:100%;
+	height:100%;
+	border:1px solid #000;
+	overflow:hidden;
+}
+div.flowchart-container div.flowchart-container-item{
+	width:100px;
+	height:40px;
+	top:20px;
+	font-size:12px;
+	padding:10px 20px;
+	cursor:pointer;
+	color:#F00;
+}
+.flowchart-item-border-show{
+	border:1px solid #F00;
+}
+
+
+.right-side1 {
+	width:182px;
+	height:60px;
+	background:url(../images/rightside1.jpg) no-repeat;
+}
+
+.right-side2 {
+	width:182px;
+	height:60px;
+	background:url(../images/rightside2.jpg) no-repeat;
+}
+
+.right-side3 {
+	width:182px;
+	height:60px;
+	background:url(../images/rightside3.jpg) no-repeat;
+}
+
+.right-side4 {
+	width:182px;
+	height:60px;
+	background:url(../images/rightside4.jpg) no-repeat;
+}
+
+.content-rotate{
+	transform:rotate(180deg);
+}
+
+
+

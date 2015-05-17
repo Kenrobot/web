@@ -1,0 +1,131 @@
+.header {
+  height: 60px;
+  background-color: #4281aa;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+.header .logo {
+  float: left;
+  width: 180px;
+  height: 60px;
+  color: #fff;
+  line-height: 60px;
+  font-size: 20px;
+  text-align: center;
+}
+.header .menus {
+  float: left;
+  margin: 16px 0 0 10px;
+}
+.header .menus .menu-item {
+  float: left;
+  padding: 5px 7px;
+  margin-right: 16px;
+  color: #fff;
+  font-size: 14px;
+}
+.header .menus .menu-item:hover,
+.header .menus .menu-item.menu-item-current {
+  color: #3ccb67;
+}
+.header .steps {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+.header .steps .line {
+  background-color: #699aba;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 10px;
+  z-index: -1;
+}
+.header .steps .step {
+  display: inline-block;
+  width: 60px;
+  background-color: #4281aa;
+  text-align: center;
+  margin-right: 80px;
+}
+.header .steps .step .circle {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #699aba;
+}
+.header .steps .step .text {
+  color: #699aba;
+  height: 20px;
+  line-height: 20px;
+}
+.header .steps .step.step-last {
+  margin-right: 0;
+}
+.header .steps .step.step-current .circle {
+  background-color: #fff;
+}
+.header .steps .step.step-current .text {
+  color: #fff;
+}
+.header .user-bar {
+  position: absolute;
+  right: 25px;
+  height: 50px;
+  top: 5px;
+}
+.header .user-bar .uinfo {
+  float: left;
+  line-height: 50px;
+  color: #fff;
+  margin-right: 5px;
+}
+.header .user-bar .uimg {
+  float: left;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+.header .user-bar .uimg img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+.header .user-bar .list {
+  position: absolute;
+  top: 34px;
+  right: 55px;
+  border: 1px solid #ccc;
+  display: none;
+}
+.header .user-bar .list li a {
+  display: block;
+  padding: 6px 8px;
+  background-color: #fff;
+}
+.header .user-bar .list li a:hover {
+  background-color: #313849;
+  color: #fff;
+}
+.header .user-bar:hover .list {
+  display: block;
+}
+.header .user-bar .tri {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+  border: 4px dashed transparent;
+  border-top: 4px solid #fff;
+  overflow: hidden;
+  margin-left: 5px;
+}

@@ -1,0 +1,13 @@
+.canvas {
+  background-color: #313849;
+  height: 100%;
+}
+.canvas text {
+  font-family: "微软雅黑";
+  fill: #fff;
+  font-size: 12px;
+}
+.canvas rect:hover,
+.canvas path:hover {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,85 @@
+div.content-container div.hardware-item{
+	width:100px;
+	height:50px;
+	top:20px;
+	font-size:12px;
+	padding:10px 0px;
+	margin-top:20px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	text-align: center;
+}
+div.content-container div.hardware-board{
+	background:url(../images/rectangle.gif) no-repeat;
+}
+
+div.hardware-container div.hardware-board-item{
+	background:url(../images/board.png) no-repeat;
+	width:433px;
+	height: 271px;
+}
+
+div.content-container div.hardware-light{
+	background:url(../images/rectangle.gif) no-repeat;
+}
+
+div.hardware-container div.hardware-light-item{
+	background:url(../images/light.png) no-repeat;
+	width:58px;
+	height: 116px;
+}
+
+div.hardware-container div.hardware-adapter-item{
+	background:url(../images/adapter.png) no-repeat;
+	width:48px;
+	height: 85px;
+}
+
+div.hardware-container{
+	float:left;
+	position: relative;
+	width:100%;
+	height:100%;
+	border:1px solid #000;
+	overflow:hidden;
+}
+div.hardware-container div.hardware-container-item{
+	//width:100px;
+	//height:40px;
+	top:20px;
+	font-size:0px;//12px;
+	padding:10px 20px;
+	cursor:pointer;
+	color:#F00;
+}
+.hardware-item-border-show{
+	border:1px solid #F00;
+}
+
+
+.right-side1 {
+	width:182px;
+	height:60px;
+	background:url(../images/rightside1.jpg) no-repeat;
+}
+
+.right-side2 {
+	width:182px;
+	height:60px;
+	background:url(../images/rightside2.jpg) no-repeat;
+}
+
+.right-side3 {
+	width:182px;
+	height:60px;
+	background:url(../images/rightside3.jpg) no-repeat;
+}
+
+.right-side4 {
+	width:182px;
+	height:60px;
+	background:url(../images/rightside4.jpg) no-repeat;
+}
+
+

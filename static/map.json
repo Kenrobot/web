@@ -1,0 +1,82 @@
+{
+    "res": {
+        "jquery": {
+            "uri": "/static/lib/jquery.js",
+            "type": "js"
+        },
+        "mod": {
+            "uri": "/static/lib/mod.js",
+            "type": "js"
+        },
+        "snap.svg": {
+            "uri": "/static/lib/snap.svg.js",
+            "type": "js"
+        },
+        "svg.drag": {
+            "uri": "/static/lib/svg.drag.js",
+            "type": "js"
+        },
+        "svg": {
+            "uri": "/static/lib/svg.js",
+            "type": "js"
+        },
+        "app/canvas/canvas": {
+            "uri": "/static/modules/app/canvas/canvas.js",
+            "type": "js",
+            "deps": [
+                "modules/app/canvas/canvas.less"
+            ]
+        },
+        "modules/app/canvas/canvas.less": {
+            "uri": "/static/modules/app/canvas/canvas.css",
+            "type": "css",
+            "id": "modules/app/canvas/canvas.less"
+        },
+        "app/canvas/panelConfig": {
+            "uri": "/static/modules/app/canvas/panelConfig.js",
+            "type": "js"
+        },
+        "app/canvas/panels": {
+            "uri": "/static/modules/app/canvas/panels.js",
+            "type": "js",
+            "deps": [
+                "app/canvas/panelConfig",
+                "app/canvas/canvas",
+                "modules/app/canvas/panels.less"
+            ]
+        },
+        "modules/app/canvas/panels.less": {
+            "uri": "/static/modules/app/canvas/panels.css",
+            "type": "css",
+            "id": "modules/app/canvas/panels.less"
+        },
+        "modules/app/main/main.less": {
+            "uri": "/static/modules/app/main/main.css",
+            "type": "css",
+            "id": "modules/app/main/main.less"
+        },
+        "modules/app/main/panels.less": {
+            "uri": "/static/modules/app/main/panels.css",
+            "type": "css"
+        },
+        "modules/common/header/header.less": {
+            "uri": "/static/modules/common/header/header.css",
+            "type": "css",
+            "id": "modules/common/header/header.less"
+        },
+        "modules/common/side/side.less": {
+            "uri": "/static/modules/common/side/side.css",
+            "type": "css",
+            "id": "modules/common/side/side.less"
+        },
+        "static/index.less": {
+            "uri": "/static/static/index.css",
+            "type": "css"
+        },
+        "static/layout.less": {
+            "uri": "/static/static/layout.css",
+            "type": "css"
+        }
+    },
+    "pkg": {}
+}

@@ -1,0 +1,9 @@
+.main-wrap {
+  position: absolute;
+  left: 60px;
+  top: 60px;
+  right: 0;
+  bottom: 0;
+  padding-left: 240px;
+  padding-right: 220px;
+}

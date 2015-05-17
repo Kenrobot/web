@@ -1,0 +1,38 @@
+.panels {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 240px;
+  height: 100%;
+  background-color: #fff;
+}
+.panels .panel-block .panel-title {
+  height: 30px;
+  line-height: 30px;
+  background-color: #f7f7f7;
+  padding-left: 18px;
+}
+.panels .panel-block .panel-content li {
+  height: 30px;
+  line-height: 30px;
+  padding-left: 18px;
+}
+.panels .panel-block .panel-content li a {
+  float: left;
+  width: 120px;
+  color: #2690cb;
+}
+.panels .panel-block .panel-content li a:hover {
+  color: #666;
+}
+.panels .panel-block .panel-content li b {
+  color: #ccc;
+}
+.panels-right {
+  position: absolute;
+  width: 220px;
+  left: auto;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+}

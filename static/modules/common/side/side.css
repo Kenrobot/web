@@ -1,0 +1,8 @@
+.side {
+  position: fixed;
+  left: 0;
+  top: 60px;
+  bottom: 0;
+  width: 60px;
+  background-color: #d6dde5;
+}
